@@ -78,3 +78,7 @@ button:hover {
     text-align: center;
     font-weight: bold;
 }
+
+#registerForm {
+    display: none;
+}

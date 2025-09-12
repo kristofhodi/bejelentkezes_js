@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="signInForm">
         Bejelentkezés <br>
         <label for="emailB">Add meg az email címedet:
             <input id="emailB" type="text" placeholder="pelda@email.com" required>
@@ -16,9 +16,11 @@
             <input id="jelszoB" type="password" placeholder="******" required>
         </label>
         <button id="bejelentkezes">Bejelentkezés</button>
+        <button id="registerFormButton">Még nincs fiókom</button>
     </div>
 
-    <div>
+    
+    <div id="registerForm">
         Regisztráció <br>
         <label for="emailR">Add meg az email címedet:
             <input id="emailR" type="text" placeholder="pelda@email.com" required>
@@ -30,6 +32,7 @@
             <input id="jelszoRR" type="password" placeholder="******" required>
         </label>
         <button id="regisztracio">Regisztráció</button>
+        <button id="vissza">Vissza a bejelentkezésre</button>
     </div>
     <p id="szoveg"></p>
     <script src="script.js"></script>

@@ -33,3 +33,17 @@ document.getElementById("regisztracio").addEventListener("click", () => {
         szoveg.innerHTML = "A regisztráció sikeres volt!";
     }
 });
+
+document.getElementById("registerFormButton").addEventListener("click", () => {
+    const signInForm = document.getElementById("signInForm");
+    const registerForm = document.getElementById("registerForm");
+    signInForm.style.display = "none";       
+    registerForm.style.display = "block";
+});
+
+document.getElementById("vissza").addEventListener("click", () => {
+    const signInForm = document.getElementById("signInForm");
+    const registerForm = document.getElementById("registerForm");
+    signInForm.style.display = "block";       
+    registerForm.style.display = "none";
+});
