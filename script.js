@@ -3,7 +3,7 @@ document.getElementById("bejelentkezes").addEventListener("click", () => {
     const jelszo = document.getElementById("jelszoB").value;
     const szoveg = document.getElementById("szoveg");
 
-    //emailt vhogy ellenorizni kell idk how
+    //emailt vhogy ellenorizni kell idk how regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 
     if (!jelszo) {
         szoveg.innerHTML = "Kérem add meg a jelszavad!";
